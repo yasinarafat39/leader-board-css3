@@ -13,12 +13,15 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #ffffff;
     width: 810px;
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 21px;
     
 }
 .section-header{
@@ -26,7 +29,11 @@ main{
     color: #562EFF;
     margin-top: 3px;
 }
-/* top player style */
+
+/*---------------------
+    top player style
+----------------------*/
+
 .top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -48,7 +55,9 @@ main{
     height: 56px;
 }
 
-/* Top Blogs */
+/*----------------
+    Top Blogs 
+----------------*/
 
 .blog-section-header{
     margin-top: 30px;
@@ -83,4 +92,33 @@ main{
 .blog-title{
     font-size: 20px;
     
+}
+
+/*----------------
+    Lates Course
+----------------*/
+.lates-course{
+    margin: 23px 28px;
+    padding: 0 30px 23px 30px;
+}
+.course-header{
+    margin-top: 23px;
+}
+.rating-and-duration{
+    display: flex;
+}
+.rating p{
+    color: #FFC014;
+}
+.duration{
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    padding: 4px 6px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.duration p{
+    
+    font-weight: 700px;
+    font-size: 15px;
 }
